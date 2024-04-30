@@ -1,11 +1,14 @@
-# The Legend of Zelda: Ocarina of Time - Chaos Edition
+# The Legend of Zelda: Ocarina of Time - Fierce Deity Mod
 
 ```diff
 - WARNING! -
 
-This mod has not had extensive testing and some features may not work as intended.
-That being said, that kinda fits the theme anyway... as long as it isn't a crash.
+This repository should not be used as the base for a romhack! That's a dumb idea.
 ```
+
+## Using the Repo as a reference
+
+Some things are a good reference, other things are not. Most of my code is not, because I'm bad at writing code (that's why I don't share it!) but you can try anyway. That being said, I do not suggest using this repository to clone audio decomp, the setup is very strange.
 
 ## Installation
 
