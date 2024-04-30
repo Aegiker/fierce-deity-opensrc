@@ -1,0 +1,134 @@
+.cache CACHE_PERSISTENT
+.usefont SOUNDFONT_SFX_1
+
+.sequence sequence_start
+mutebhv 0X20
+mutescale 50
+initchan 0X20
+ldio 7
+rbltz seq_33
+stseq 0, chan_5A+1
+stseq 0, chan_5C+1
+ldio 7
+sub 53
+rbeqz seq_25
+ldio 7
+sub 92
+rbeqz seq_2D
+ldio 7
+sub 93
+rbeqz seq_29
+ldi 85
+rjump seq_2F
+.sequence seq_25
+ldi 70
+rjump seq_2F
+.sequence seq_29
+ldi 85
+rjump seq_2F
+.sequence seq_2D
+ldi 105
+.sequence seq_2F
+stseq 0, seq_36+1
+.sequence seq_33
+ldchan 5, chan_49
+.sequence seq_36
+vol 65
+tempo 110
+delay 0X2D0
+freechan 0X20
+end
+.channel chan_41
+delay1
+testlayer 0
+rbeqz chan_41
+testlayer 1
+rbeqz chan_41
+end
+
+.channel chan_49
+noshort
+ldlayer 0, layer_B1
+ldlayer 1, layer_D4
+vibdepth 0
+vol 127
+notepri 10
+pan 64
+reverb 40
+.channel chan_5A
+instr FONT00_INSTR_OCARINA_1
+.channel chan_5C
+ldi 53
+sub 53
+rbeqz chan_68
+sub 41
+rbeqz chan_68
+rjump chan_41
+.channel chan_68
+vibdepth 0
+delay 0X1B0
+vol 114
+cdelay 6
+vol 118
+cdelay 6
+vol 120
+cdelay 6
+vol 123
+cdelay 6
+vol 124
+cdelay 6
+vol 126
+cdelay 12
+vol 127
+cdelay 6
+vibdepth 3
+vol 121
+cdelay 6
+vol 126
+cdelay 6
+vol 112
+cdelay 6
+vol 119
+cdelay 6
+vol 106
+cdelay 6
+vol 113
+cdelay 6
+vol 103
+cdelay 6
+vol 105
+cdelay 4
+vol 98
+cdelay 8
+vol 93
+cdelay 6
+vol 90
+cdelay 12
+vol 86
+cdelay 6
+vol 82
+cdelay 6
+vol 75
+cdelay 6
+vol 74
+end
+
+.layer layer_B1
+notedvg PITCH_B4, 0X30, 118, 6
+notevg PITCH_A4, 118, 16
+notevg PITCH_F4, 99, 70
+notevg PITCH_B4, 124, 0
+notevg PITCH_A4, 118, 32
+notevg PITCH_F4, 116, 70
+notevg PITCH_B4, 114, 11
+notevg PITCH_A4, 122, 59
+notedvg PITCH_E4, 0X18, 116, 11
+notedv PITCH_D4, 0X1D, 118
+ldelay 0X1
+end
+
+.layer layer_D4
+ldelay 0X1B0
+notedv PITCH_E4, 0X89, 122
+ldelay 0X1
+end

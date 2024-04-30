@@ -1,0 +1,18 @@
+<Root>
+    <Soundfont Name="38_Song_of_Healing" Index="38">
+        <Instruments>
+            <Instrument Name="Majora Synth 1" Enum="MAJORASYNTH_0"/>
+            <Instrument Name="Majora Synth 2" Enum="MAJORASYNTH_1"/>
+            <Instrument Name="Iceland" Enum="ICELAND"/>
+            <Instrument Name="Harpsichord" Enum="HARPSICHORD"/>
+            <Instrument Name="Hi Hat Noise" Enum="HIHATNOISE"/>
+            <Instrument Name="Strings" Enum="STRINGS"/>
+            <Instrument Name="Crystal Synth" Enum="CRYSTAL_SYNTH"/>
+            <Instrument Name="Vocals" Enum="VOCALS"/>
+            <Instrument Name="Piano 1" Enum="PIANO_0"/>
+            <Instrument Name="Piano 2" Enum="PIANO_1"/>
+        </Instruments>
+        <Drums/>
+        <Effects/>
+    </Soundfont>
+</Root>

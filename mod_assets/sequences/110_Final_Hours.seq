@@ -1,0 +1,1778 @@
+.cache CACHE_TEMPORARY
+.usefont 38
+
+.sequence sequence_start
+mutebhv 0X20
+mutescale 50
+initchan 0X1F
+ldchan 0, chan_36
+ldchan 1, chan_44
+ldchan 2, chan_52
+ldchan 3, chan_F1
+ldchan 4, chan_FF
+vol 75
+tempo 69
+delay 0X300
+.sequence seq_1D
+ldchan 0, chan_10D
+ldchan 1, chan_1E2
+ldchan 2, chan_2AF
+ldchan 3, chan_4B4
+ldchan 4, chan_4BC
+delay 0X1800
+jump seq_1D
+
+.unused unused_32
+byte 0XD6
+byte 0X0
+byte 0X1F
+byte 0XFF
+
+.channel chan_36
+vol 127
+notepri 10
+pan 74
+reverb 40
+instr 0
+delay 0X300
+end
+
+.channel chan_44
+vol 127
+notepri 9
+pan 54
+reverb 40
+instr 1
+delay 0X300
+end
+
+.channel chan_52
+noshort
+ldlayer 0, layer_5F3
+vol 39
+notepri 8
+pan 0
+reverb 255
+instr 2
+cdelay 6
+vol 42
+cdelay 6
+vol 44
+cdelay 6
+vol 47
+cdelay 6
+vol 51
+cdelay 6
+vol 52
+cdelay 6
+vol 55
+cdelay 6
+vol 59
+cdelay 6
+vol 61
+cdelay 6
+vol 62
+cdelay 6
+vol 66
+cdelay 6
+vol 69
+cdelay 6
+vol 73
+cdelay 6
+vol 74
+cdelay 6
+vol 77
+cdelay 6
+vol 81
+cdelay 6
+vol 83
+cdelay 6
+vol 86
+cdelay 6
+vol 88
+cdelay 6
+vol 91
+cdelay 6
+vol 94
+cdelay 6
+vol 98
+cdelay 6
+vol 99
+cdelay 6
+vol 101
+cdelay 6
+vol 105
+cdelay 6
+vol 108
+cdelay 6
+vol 109
+cdelay 6
+vol 113
+cdelay 6
+vol 116
+cdelay 6
+vol 120
+cdelay 6
+vol 122
+cdelay 6
+vol 124
+delay 0X1E6
+vol 126
+cdelay 6
+vol 126
+cdelay 6
+vol 124
+cdelay 6
+vol 121
+cdelay 6
+vol 117
+cdelay 6
+vol 116
+cdelay 6
+vol 113
+cdelay 6
+vol 109
+cdelay 6
+vol 107
+cdelay 6
+vol 105
+cdelay 6
+vol 101
+cdelay 6
+vol 99
+cdelay 6
+vol 95
+cdelay 6
+vol 94
+cdelay 6
+vol 91
+cdelay 6
+vol 87
+cdelay 6
+end
+
+.channel chan_F1
+vol 60
+notepri 6
+pan 20
+reverb 40
+instr 3
+delay 0X300
+end
+
+.channel chan_FF
+vol 60
+notepri 4
+pan 100
+reverb 40
+instr 4
+delay 0X300
+end
+
+.channel chan_10D
+noshort
+ldlayer 0, layer_5FB
+ldlayer 1, layer_660
+vol 39
+cdelay 6
+vol 42
+cdelay 6
+vol 44
+cdelay 6
+vol 47
+cdelay 6
+vol 51
+cdelay 6
+vol 52
+cdelay 6
+vol 55
+cdelay 6
+vol 59
+cdelay 6
+vol 61
+cdelay 6
+vol 62
+cdelay 6
+vol 66
+cdelay 6
+vol 69
+cdelay 6
+vol 73
+cdelay 6
+vol 74
+cdelay 6
+vol 77
+cdelay 6
+vol 81
+cdelay 6
+vol 83
+cdelay 6
+vol 86
+cdelay 6
+vol 88
+cdelay 6
+vol 91
+cdelay 6
+vol 94
+cdelay 6
+vol 98
+cdelay 6
+vol 99
+cdelay 6
+vol 101
+cdelay 6
+vol 105
+cdelay 6
+vol 108
+cdelay 6
+vol 109
+cdelay 6
+vol 113
+cdelay 6
+vol 116
+cdelay 6
+vol 120
+cdelay 6
+vol 122
+cdelay 6
+vol 124
+delay 0X1146
+vol 127
+delay 0XC0
+call chan_fn_9EA
+vol 39
+cdelay 6
+vol 42
+cdelay 6
+vol 44
+cdelay 6
+vol 47
+cdelay 6
+vol 51
+cdelay 6
+vol 52
+cdelay 6
+vol 55
+cdelay 6
+vol 59
+cdelay 6
+vol 61
+cdelay 6
+vol 62
+cdelay 6
+vol 66
+cdelay 6
+vol 69
+cdelay 6
+vol 73
+cdelay 6
+vol 74
+cdelay 6
+vol 77
+cdelay 6
+vol 81
+cdelay 6
+vol 83
+cdelay 6
+vol 86
+cdelay 6
+vol 88
+cdelay 6
+vol 91
+cdelay 6
+vol 94
+cdelay 6
+vol 98
+cdelay 6
+vol 99
+cdelay 6
+vol 101
+cdelay 6
+vol 105
+cdelay 6
+vol 108
+cdelay 6
+vol 109
+cdelay 6
+vol 113
+cdelay 6
+vol 116
+cdelay 6
+vol 120
+cdelay 6
+vol 122
+cdelay 6
+vol 124
+cdelay 6
+call chan_fn_A47
+end
+
+.channel chan_1E2
+noshort
+ldlayer 0, layer_6B9
+vol 39
+cdelay 6
+vol 42
+cdelay 6
+vol 44
+cdelay 6
+vol 47
+cdelay 6
+vol 51
+cdelay 6
+vol 52
+cdelay 6
+vol 55
+cdelay 6
+vol 59
+cdelay 6
+vol 61
+cdelay 6
+vol 62
+cdelay 6
+vol 66
+cdelay 6
+vol 69
+cdelay 6
+vol 73
+cdelay 6
+vol 74
+cdelay 6
+vol 77
+cdelay 6
+vol 81
+cdelay 6
+vol 83
+cdelay 6
+vol 86
+cdelay 6
+vol 88
+cdelay 6
+vol 91
+cdelay 6
+vol 94
+cdelay 6
+vol 98
+cdelay 6
+vol 99
+cdelay 6
+vol 101
+cdelay 6
+vol 105
+cdelay 6
+vol 108
+cdelay 6
+vol 109
+cdelay 6
+vol 113
+cdelay 6
+vol 116
+cdelay 6
+vol 120
+cdelay 6
+vol 122
+cdelay 6
+vol 124
+delay 0X1206
+call chan_fn_9EA
+vol 39
+cdelay 6
+vol 42
+cdelay 6
+vol 44
+cdelay 6
+vol 47
+cdelay 6
+vol 51
+cdelay 6
+vol 52
+cdelay 6
+vol 55
+cdelay 6
+vol 59
+cdelay 6
+vol 61
+cdelay 6
+vol 62
+cdelay 6
+vol 66
+cdelay 6
+vol 69
+cdelay 6
+vol 73
+cdelay 6
+vol 74
+cdelay 6
+vol 77
+cdelay 6
+vol 81
+cdelay 6
+vol 83
+cdelay 6
+vol 86
+cdelay 6
+vol 88
+cdelay 6
+vol 91
+cdelay 6
+vol 94
+cdelay 6
+vol 98
+cdelay 6
+vol 99
+cdelay 6
+vol 101
+cdelay 6
+vol 105
+cdelay 6
+vol 108
+cdelay 6
+vol 109
+cdelay 6
+vol 113
+cdelay 6
+vol 116
+cdelay 6
+vol 120
+cdelay 6
+vol 122
+cdelay 6
+vol 124
+cdelay 6
+call chan_fn_A47
+end
+
+.channel chan_2AF
+noshort
+ldlayer 0, layer_705
+vol 85
+cdelay 6
+vol 82
+cdelay 6
+vol 79
+cdelay 6
+vol 77
+cdelay 6
+vol 74
+cdelay 6
+vol 70
+cdelay 6
+vol 69
+cdelay 6
+vol 66
+cdelay 6
+vol 62
+cdelay 6
+vol 60
+cdelay 6
+vol 59
+cdelay 6
+vol 55
+cdelay 6
+vol 52
+cdelay 6
+vol 48
+cdelay 6
+vol 46
+cdelay 6
+vol 44
+cdelay 6
+vol 39
+cdelay 6
+vol 42
+cdelay 6
+vol 44
+cdelay 6
+vol 47
+cdelay 6
+vol 51
+cdelay 6
+vol 52
+cdelay 6
+vol 55
+cdelay 6
+vol 59
+cdelay 6
+vol 61
+cdelay 6
+vol 62
+cdelay 6
+vol 66
+cdelay 6
+vol 69
+cdelay 6
+vol 73
+cdelay 6
+vol 74
+cdelay 6
+vol 77
+cdelay 6
+vol 81
+cdelay 6
+vol 83
+cdelay 6
+vol 86
+cdelay 6
+vol 88
+cdelay 6
+vol 91
+cdelay 6
+vol 94
+cdelay 6
+vol 98
+cdelay 6
+vol 99
+cdelay 6
+vol 101
+cdelay 6
+vol 105
+cdelay 6
+vol 108
+cdelay 6
+vol 109
+cdelay 6
+vol 113
+cdelay 6
+vol 116
+cdelay 6
+vol 120
+cdelay 6
+vol 122
+cdelay 6
+vol 124
+delay 0X186
+call chan_fn_AA2
+call chan_fn_AD3
+call chan_fn_B34
+call chan_fn_B67
+vol 42
+cdelay 6
+vol 44
+cdelay 6
+vol 47
+cdelay 6
+vol 49
+cdelay 6
+vol 53
+cdelay 6
+vol 55
+cdelay 6
+vol 57
+cdelay 6
+vol 61
+cdelay 6
+vol 64
+cdelay 6
+vol 65
+cdelay 6
+vol 69
+cdelay 6
+vol 72
+cdelay 6
+vol 75
+cdelay 6
+vol 77
+cdelay 6
+vol 79
+cdelay 6
+vol 83
+delay 0X546
+vol 85
+cdelay 6
+vol 82
+cdelay 6
+vol 79
+cdelay 6
+vol 77
+cdelay 6
+vol 74
+cdelay 6
+vol 70
+cdelay 6
+vol 69
+cdelay 6
+vol 66
+cdelay 6
+vol 62
+cdelay 6
+vol 60
+cdelay 6
+vol 59
+cdelay 6
+vol 55
+cdelay 6
+vol 52
+cdelay 6
+vol 48
+cdelay 6
+vol 46
+cdelay 6
+vol 44
+cdelay 6
+vol 39
+cdelay 6
+vol 42
+cdelay 6
+vol 44
+cdelay 6
+vol 47
+cdelay 6
+vol 51
+cdelay 6
+vol 52
+cdelay 6
+vol 55
+cdelay 6
+vol 59
+cdelay 6
+vol 61
+cdelay 6
+vol 62
+cdelay 6
+vol 66
+cdelay 6
+vol 69
+cdelay 6
+vol 73
+cdelay 6
+vol 74
+cdelay 6
+vol 77
+cdelay 6
+vol 81
+cdelay 6
+vol 83
+cdelay 6
+vol 86
+cdelay 6
+vol 88
+cdelay 6
+vol 91
+cdelay 6
+vol 94
+cdelay 6
+vol 98
+cdelay 6
+vol 99
+cdelay 6
+vol 101
+cdelay 6
+vol 105
+cdelay 6
+vol 108
+cdelay 6
+vol 109
+cdelay 6
+vol 113
+cdelay 6
+vol 116
+cdelay 6
+vol 120
+cdelay 6
+vol 122
+cdelay 6
+vol 124
+delay 0X1E6
+call chan_fn_AA2
+call chan_fn_AD3
+call chan_fn_B34
+call chan_fn_B67
+vol 43
+cdelay 6
+vol 46
+cdelay 6
+vol 48
+cdelay 6
+vol 51
+cdelay 6
+vol 55
+cdelay 6
+vol 56
+cdelay 6
+vol 59
+cdelay 6
+vol 63
+cdelay 6
+vol 65
+cdelay 6
+vol 66
+cdelay 6
+vol 70
+cdelay 6
+vol 73
+cdelay 6
+vol 77
+cdelay 6
+vol 78
+cdelay 6
+vol 81
+cdelay 6
+vol 85
+cdelay 6
+vol 87
+cdelay 6
+vol 90
+cdelay 6
+vol 92
+cdelay 6
+vol 95
+cdelay 6
+vol 98
+cdelay 6
+vol 102
+cdelay 6
+vol 103
+cdelay 6
+vol 105
+cdelay 6
+vol 109
+cdelay 6
+vol 112
+cdelay 6
+vol 113
+cdelay 6
+vol 117
+cdelay 6
+vol 120
+cdelay 6
+vol 124
+cdelay 6
+vol 126
+cdelay 6
+vol 127
+delay 0X4E6
+vol 126
+cdelay 6
+vol 126
+cdelay 6
+vol 126
+cdelay 6
+vol 124
+cdelay 6
+vol 120
+cdelay 6
+vol 118
+cdelay 6
+vol 116
+cdelay 6
+vol 112
+cdelay 6
+vol 109
+cdelay 6
+vol 108
+cdelay 6
+vol 104
+cdelay 6
+vol 101
+cdelay 6
+vol 98
+cdelay 6
+vol 96
+cdelay 6
+vol 94
+cdelay 6
+vol 90
+cdelay 6
+end
+
+.channel chan_4B4
+noshort
+ldlayer 0, layer_737
+delay 0X1800
+end
+
+.channel chan_4BC
+noshort
+ldlayer 0, layer_8B1
+delay 0X600
+pan 64
+cdelay 8
+pan 64
+cdelay 8
+pan 74
+cdelay 8
+pan 54
+cdelay 8
+pan 84
+cdelay 8
+pan 44
+cdelay 8
+pan 94
+cdelay 8
+pan 34
+cdelay 8
+pan 104
+cdelay 8
+pan 24
+cdelay 8
+pan 114
+cdelay 8
+pan 14
+cdelay 8
+pan 124
+cdelay 8
+pan 4
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+delay 0X248
+pan 64
+cdelay 8
+pan 64
+cdelay 8
+pan 74
+cdelay 8
+pan 54
+cdelay 8
+pan 84
+cdelay 8
+pan 44
+cdelay 8
+pan 94
+cdelay 8
+pan 34
+cdelay 8
+pan 104
+cdelay 8
+pan 24
+cdelay 8
+pan 114
+cdelay 8
+pan 14
+cdelay 8
+pan 124
+cdelay 8
+pan 4
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+delay 0X3C8
+pan 64
+cdelay 8
+pan 64
+cdelay 8
+pan 74
+cdelay 8
+pan 54
+cdelay 8
+pan 84
+cdelay 8
+pan 44
+cdelay 8
+pan 94
+cdelay 8
+pan 34
+cdelay 8
+pan 104
+cdelay 8
+pan 24
+cdelay 8
+pan 114
+cdelay 8
+pan 14
+cdelay 8
+pan 124
+cdelay 8
+pan 4
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+delay 0X488
+call chan_fn_BC8
+call chan_fn_BC8
+call chan_fn_BC8
+pan 64
+cdelay 8
+pan 64
+cdelay 8
+pan 74
+cdelay 8
+pan 54
+cdelay 8
+pan 84
+cdelay 8
+pan 44
+cdelay 8
+pan 94
+cdelay 8
+pan 34
+cdelay 8
+pan 104
+cdelay 8
+pan 24
+cdelay 8
+pan 114
+cdelay 8
+pan 14
+cdelay 8
+pan 124
+cdelay 8
+pan 4
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+end
+
+.layer layer_5F3
+notedv PITCH_G4, 0X180, 127
+notevg PITCH_F4, 108, 0
+end
+
+.layer layer_5FB
+notedv PITCH_G3, 0XC0, 76
+notevg PITCH_F3, 67, 0
+notevg PITCH_G3, 82, 0
+call layer_fn_C13
+notedv PITCH_G3, 0XC0, 78
+notevg PITCH_F3, 44, 0
+notedv PITCH_G3, 0X120, 82
+notedv PITCH_GF3, 0X60, 91
+notedv PITCH_EF4, 0X90, 70
+notedv PITCH_D4, 0X30, 84
+notedv PITCH_AF3, 0X90, 91
+notedv PITCH_A3, 0X30, 78
+notedv PITCH_G4, 0XC0, 92
+notevg PITCH_GF4, 76, 0
+notevg PITCH_D4, 70, 0
+notedv PITCH_BF4, 0X90, 87
+notedv PITCH_A4, 0X30, 96
+notedv PITCH_G4, 0XC0, 84
+notevg PITCH_C4, 52, 6
+notevg PITCH_G3, 76, 0
+notevg PITCH_F3, 67, 0
+notevg PITCH_G3, 82, 0
+call layer_fn_C13
+notedv PITCH_G3, 0XC0, 78
+notevg PITCH_F3, 44, 0
+notedv PITCH_G3, 0X120, 82
+notedv PITCH_GF3, 0X60, 91
+notedvg PITCH_BF3, 0X300, 70, 128
+notedv PITCH_BF3, 0X180, 70
+end
+
+.layer layer_660
+notedv PITCH_BF3, 0XC0, 70
+notevg PITCH_A3, 76, 0
+call layer_fn_C1A
+notedv PITCH_A3, 0X60, 70
+notedv PITCH_BF3, 0XC0, 83
+call layer_fn_C22
+call layer_fn_C2A
+notedv PITCH_D4, 0XC0, 94
+notevg PITCH_G3, 91, 64
+notevg PITCH_E4, 90, 0
+notedv PITCH_C4, 0X180, 78
+notedv PITCH_A4, 0X90, 78
+notedv PITCH_G4, 0X30, 71
+notedv PITCH_D4, 0X180, 71
+notedvg PITCH_GF4, 0XC0, 66, 6
+notevg PITCH_BF3, 70, 0
+notevg PITCH_A3, 76, 0
+call layer_fn_C1A
+notedv PITCH_A3, 0X60, 70
+notedv PITCH_BF3, 0XC0, 83
+call layer_fn_C22
+call layer_fn_C2A
+notedv PITCH_D4, 0XC0, 94
+notedvg PITCH_G3, 0X300, 76, 128
+notedv PITCH_G3, 0X180, 76
+end
+
+.layer layer_6B9
+notedv PITCH_G2, 0XC0, 80
+notevg PITCH_F2, 82, 0
+notevg PITCH_EF2, 83, 0
+notevg PITCH_D2, 90, 0
+notevg PITCH_G2, 84, 0
+notevg PITCH_F2, 74, 0
+notevg PITCH_EF2, 85, 0
+notevg PITCH_D2, 86, 0
+notevg PITCH_C3, 83, 0
+notevg PITCH_DF3, 83, 0
+notedv PITCH_D3, 0X180, 82
+notevg PITCH_EF3, 78, 0
+notevg PITCH_D3, 86, 0
+notedv PITCH_G2, 0XC0, 80
+notevg PITCH_F2, 82, 0
+notevg PITCH_EF2, 83, 0
+notevg PITCH_D2, 90, 0
+notevg PITCH_G2, 84, 0
+notevg PITCH_F2, 74, 0
+notevg PITCH_EF2, 85, 0
+notevg PITCH_D2, 86, 0
+notedvg PITCH_G2, 0X300, 80, 128
+notedv PITCH_G2, 0X180, 80
+end
+
+.layer layer_705
+notedv PITCH_G4, 0X180, 127
+notevg PITCH_F4, 108, 0
+notevg PITCH_G4, 127, 0
+notevg PITCH_F4, 108, 0
+notevg PITCH_G4, 127, 0
+notevg PITCH_F4, 108, 0
+notevg PITCH_G4, 127, 0
+notevg PITCH_F4, 108, 0
+notevg PITCH_G4, 127, 0
+notevg PITCH_F4, 108, 0
+notevg PITCH_G4, 127, 0
+notevg PITCH_F4, 108, 0
+notevg PITCH_G4, 127, 0
+notevg PITCH_F4, 108, 0
+notevg PITCH_G4, 127, 0
+notevg PITCH_F4, 108, 0
+end
+
+.layer layer_737
+ldelay 0X480
+notedv PITCH_G3, 0X8, 77
+notevg PITCH_A3, 82, 0
+notevg PITCH_G3, 83, 0
+notevg PITCH_A3, 84, 0
+notevg PITCH_BF3, 85, 0
+notevg PITCH_G3, 83, 0
+notevg PITCH_A3, 81, 0
+notevg PITCH_BF3, 79, 0
+notevg PITCH_G3, 76, 0
+notevg PITCH_A3, 73, 0
+notevg PITCH_BF3, 69, 0
+notevg PITCH_G3, 65, 0
+notevg PITCH_A3, 61, 0
+notevg PITCH_BF3, 57, 0
+notevg PITCH_G3, 53, 0
+notevg PITCH_A3, 49, 0
+notevg PITCH_BF3, 45, 0
+notevg PITCH_G3, 41, 0
+notevg PITCH_A3, 36, 0
+notevg PITCH_BF3, 32, 0
+notevg PITCH_G3, 28, 0
+notevg PITCH_A3, 23, 0
+notevg PITCH_BF3, 19, 0
+notedvg PITCH_G3, 0X248, 14, 252
+notedv PITCH_G3, 0X8, 77
+notevg PITCH_A3, 82, 0
+notevg PITCH_G3, 83, 0
+notevg PITCH_A3, 84, 0
+notevg PITCH_BF3, 85, 0
+notevg PITCH_G3, 83, 0
+notevg PITCH_A3, 81, 0
+notevg PITCH_BF3, 79, 0
+notevg PITCH_G3, 76, 0
+notevg PITCH_A3, 73, 0
+notevg PITCH_BF3, 69, 0
+notevg PITCH_G3, 65, 0
+notevg PITCH_A3, 61, 0
+notevg PITCH_BF3, 57, 0
+notevg PITCH_G3, 53, 0
+notevg PITCH_A3, 49, 0
+notevg PITCH_BF3, 45, 0
+notevg PITCH_G3, 41, 0
+notevg PITCH_A3, 36, 0
+notevg PITCH_BF3, 32, 0
+notevg PITCH_G3, 28, 0
+notevg PITCH_A3, 23, 0
+notevg PITCH_BF3, 19, 0
+notedvg PITCH_G3, 0X3C8, 14, 253
+notedv PITCH_G3, 0X8, 77
+notevg PITCH_A3, 82, 0
+notevg PITCH_G3, 83, 0
+notevg PITCH_A3, 84, 0
+notevg PITCH_BF3, 85, 0
+notevg PITCH_G3, 83, 0
+notevg PITCH_A3, 81, 0
+notevg PITCH_BF3, 79, 0
+notevg PITCH_G3, 76, 0
+notevg PITCH_A3, 73, 0
+notevg PITCH_BF3, 69, 0
+notevg PITCH_G3, 65, 0
+notevg PITCH_A3, 61, 0
+notevg PITCH_BF3, 57, 0
+notevg PITCH_G3, 53, 0
+notevg PITCH_A3, 49, 0
+notevg PITCH_BF3, 45, 0
+notevg PITCH_G3, 41, 0
+notevg PITCH_A3, 36, 0
+notevg PITCH_BF3, 32, 0
+notevg PITCH_G3, 28, 0
+notevg PITCH_A3, 23, 0
+notevg PITCH_BF3, 19, 0
+notedvg PITCH_G3, 0X548, 14, 254
+call layer_fn_C32
+notedv PITCH_F3, 0X8, 77
+notevg PITCH_G3, 82, 0
+notevg PITCH_F3, 83, 0
+notevg PITCH_G3, 84, 0
+notevg PITCH_AF3, 85, 0
+notevg PITCH_F3, 83, 0
+notevg PITCH_G3, 81, 0
+notevg PITCH_AF3, 79, 0
+notevg PITCH_F3, 76, 0
+notevg PITCH_G3, 73, 0
+notevg PITCH_AF3, 69, 0
+notevg PITCH_F3, 65, 0
+notevg PITCH_G3, 61, 0
+notevg PITCH_AF3, 57, 0
+notevg PITCH_F3, 53, 0
+notevg PITCH_G3, 49, 0
+notevg PITCH_AF3, 45, 0
+notevg PITCH_F3, 41, 0
+notevg PITCH_G3, 36, 0
+notevg PITCH_AF3, 32, 0
+notevg PITCH_F3, 28, 0
+notevg PITCH_G3, 23, 0
+notevg PITCH_AF3, 19, 0
+notedvg PITCH_F3, 0XC8, 14, 245
+call layer_fn_C32
+notedv PITCH_F3, 0X8, 77
+notevg PITCH_G3, 82, 0
+notevg PITCH_F3, 83, 0
+notevg PITCH_G3, 84, 0
+notevg PITCH_AF3, 85, 0
+notevg PITCH_F3, 83, 0
+notevg PITCH_G3, 81, 0
+notevg PITCH_AF3, 79, 0
+notevg PITCH_F3, 76, 0
+notevg PITCH_G3, 73, 0
+notevg PITCH_AF3, 69, 0
+notevg PITCH_F3, 65, 0
+notevg PITCH_G3, 61, 0
+notevg PITCH_AF3, 57, 0
+notevg PITCH_F3, 53, 0
+notevg PITCH_G3, 49, 0
+notevg PITCH_AF3, 45, 0
+notevg PITCH_F3, 41, 0
+notevg PITCH_G3, 36, 0
+notevg PITCH_AF3, 32, 0
+notevg PITCH_F3, 28, 0
+notevg PITCH_G3, 23, 0
+notevg PITCH_AF3, 19, 0
+notevg PITCH_F3, 14, 0
+end
+
+.layer layer_8B1
+ldelay 0X600
+notedvg PITCH_G4, 0X8, 93, 96
+notevg PITCH_G4, 90, 96
+notevg PITCH_G4, 89, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 83, 96
+notevg PITCH_G4, 81, 96
+notevg PITCH_G4, 79, 96
+notevg PITCH_G4, 76, 96
+notevg PITCH_G4, 73, 96
+notevg PITCH_G4, 69, 96
+notevg PITCH_G4, 65, 96
+notevg PITCH_G4, 61, 96
+notevg PITCH_G4, 57, 96
+notevg PITCH_G4, 53, 96
+notevg PITCH_G4, 49, 96
+notevg PITCH_G4, 45, 96
+notevg PITCH_G4, 41, 96
+notevg PITCH_G4, 36, 96
+notevg PITCH_G4, 32, 96
+notevg PITCH_G4, 28, 96
+notevg PITCH_G4, 23, 96
+notevg PITCH_G4, 19, 96
+notedvg PITCH_G4, 0X248, 14, 253
+notedvg PITCH_G4, 0X8, 93, 96
+notevg PITCH_G4, 90, 96
+notevg PITCH_G4, 89, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 83, 96
+notevg PITCH_G4, 81, 96
+notevg PITCH_G4, 79, 96
+notevg PITCH_G4, 76, 96
+notevg PITCH_G4, 73, 96
+notevg PITCH_G4, 69, 96
+notevg PITCH_G4, 65, 96
+notevg PITCH_G4, 61, 96
+notevg PITCH_G4, 57, 96
+notevg PITCH_G4, 53, 96
+notevg PITCH_G4, 49, 96
+notevg PITCH_G4, 45, 96
+notevg PITCH_G4, 41, 96
+notevg PITCH_G4, 36, 96
+notevg PITCH_G4, 32, 96
+notevg PITCH_G4, 28, 96
+notevg PITCH_G4, 23, 96
+notevg PITCH_G4, 19, 96
+notedvg PITCH_G4, 0X3C8, 14, 254
+notedvg PITCH_G4, 0X8, 93, 96
+notevg PITCH_G4, 90, 96
+notevg PITCH_G4, 89, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 83, 96
+notevg PITCH_G4, 81, 96
+notevg PITCH_G4, 79, 96
+notevg PITCH_G4, 76, 96
+notevg PITCH_G4, 73, 96
+notevg PITCH_G4, 69, 96
+notevg PITCH_G4, 65, 96
+notevg PITCH_G4, 61, 96
+notevg PITCH_G4, 57, 96
+notevg PITCH_G4, 53, 96
+notevg PITCH_G4, 49, 96
+notevg PITCH_G4, 45, 96
+notevg PITCH_G4, 41, 96
+notevg PITCH_G4, 36, 96
+notevg PITCH_G4, 32, 96
+notevg PITCH_G4, 28, 96
+notevg PITCH_G4, 23, 96
+notevg PITCH_G4, 19, 96
+notedvg PITCH_G4, 0X488, 14, 254
+call layer_fn_C7D
+call layer_fn_C7D
+call layer_fn_C7D
+notedvg PITCH_G4, 0X8, 93, 96
+notevg PITCH_G4, 90, 96
+notevg PITCH_G4, 89, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 83, 96
+notevg PITCH_G4, 81, 96
+notevg PITCH_G4, 79, 96
+notevg PITCH_G4, 76, 96
+notevg PITCH_G4, 73, 96
+notevg PITCH_G4, 69, 96
+notevg PITCH_G4, 65, 96
+notevg PITCH_G4, 61, 96
+notevg PITCH_G4, 57, 96
+notevg PITCH_G4, 53, 96
+notevg PITCH_G4, 49, 96
+notevg PITCH_G4, 45, 96
+notevg PITCH_G4, 41, 96
+notevg PITCH_G4, 36, 96
+notevg PITCH_G4, 32, 96
+notevg PITCH_G4, 28, 96
+notevg PITCH_G4, 23, 96
+notevg PITCH_G4, 19, 96
+notedv PITCH_G4, 0X5, 14
+ldelay 0X3
+end
+
+.channel chan_fn_9EA
+vol 127
+cdelay 6
+vol 126
+cdelay 12
+vol 124
+cdelay 12
+vol 122
+cdelay 6
+vol 121
+cdelay 6
+vol 120
+cdelay 6
+vol 118
+cdelay 6
+vol 116
+cdelay 6
+vol 115
+cdelay 6
+vol 114
+cdelay 6
+vol 112
+cdelay 6
+vol 108
+cdelay 6
+vol 106
+cdelay 6
+vol 102
+cdelay 6
+vol 100
+cdelay 6
+vol 96
+cdelay 6
+vol 92
+cdelay 6
+vol 88
+cdelay 6
+vol 83
+cdelay 6
+vol 78
+cdelay 6
+vol 72
+cdelay 6
+vol 68
+cdelay 6
+vol 62
+cdelay 6
+vol 57
+cdelay 6
+vol 51
+cdelay 6
+vol 45
+cdelay 6
+vol 39
+cdelay 6
+vol 32
+cdelay 6
+vol 26
+cdelay 6
+vol 20
+delay 0X186
+end
+
+.channel chan_fn_A47
+vol 127
+cdelay 6
+vol 126
+cdelay 12
+vol 124
+cdelay 12
+vol 122
+cdelay 6
+vol 121
+cdelay 6
+vol 120
+cdelay 6
+vol 118
+cdelay 6
+vol 116
+cdelay 6
+vol 115
+cdelay 6
+vol 114
+cdelay 6
+vol 112
+cdelay 6
+vol 108
+cdelay 6
+vol 106
+cdelay 6
+vol 102
+cdelay 6
+vol 100
+cdelay 6
+vol 96
+cdelay 6
+vol 92
+cdelay 6
+vol 88
+cdelay 6
+vol 83
+cdelay 6
+vol 78
+cdelay 6
+vol 72
+cdelay 6
+vol 68
+cdelay 6
+vol 62
+cdelay 6
+vol 57
+cdelay 6
+vol 51
+cdelay 6
+vol 45
+cdelay 6
+vol 39
+cdelay 6
+vol 32
+cdelay 6
+vol 26
+cdelay 6
+vol 20
+cdelay 6
+end
+
+.channel chan_fn_AA2
+vol 126
+cdelay 6
+vol 126
+cdelay 6
+vol 125
+cdelay 6
+vol 122
+cdelay 6
+vol 118
+cdelay 6
+vol 117
+cdelay 6
+vol 114
+cdelay 6
+vol 111
+cdelay 6
+vol 108
+cdelay 6
+vol 107
+cdelay 6
+vol 103
+cdelay 6
+vol 100
+cdelay 6
+vol 96
+cdelay 6
+vol 95
+cdelay 6
+vol 92
+cdelay 6
+vol 88
+cdelay 6
+end
+
+.channel chan_fn_AD3
+vol 86
+cdelay 6
+vol 83
+cdelay 6
+vol 81
+cdelay 6
+vol 78
+cdelay 6
+vol 75
+cdelay 6
+vol 72
+cdelay 6
+vol 70
+cdelay 6
+vol 68
+cdelay 6
+vol 64
+cdelay 6
+vol 61
+cdelay 6
+vol 60
+cdelay 6
+vol 56
+cdelay 6
+vol 53
+cdelay 6
+vol 49
+cdelay 6
+vol 47
+cdelay 6
+vol 46
+cdelay 6
+vol 40
+cdelay 6
+vol 43
+cdelay 6
+vol 46
+cdelay 6
+vol 48
+cdelay 6
+vol 52
+cdelay 6
+vol 53
+cdelay 6
+vol 56
+cdelay 6
+vol 60
+cdelay 6
+vol 62
+cdelay 6
+vol 64
+cdelay 6
+vol 68
+cdelay 6
+vol 70
+cdelay 6
+vol 74
+cdelay 6
+vol 75
+cdelay 6
+vol 78
+cdelay 6
+vol 82
+cdelay 6
+end
+
+.channel chan_fn_B34
+vol 85
+cdelay 6
+vol 87
+cdelay 6
+vol 90
+cdelay 6
+vol 92
+cdelay 6
+vol 95
+cdelay 6
+vol 99
+cdelay 6
+vol 100
+cdelay 6
+vol 103
+cdelay 6
+vol 107
+cdelay 6
+vol 109
+cdelay 6
+vol 111
+cdelay 6
+vol 114
+cdelay 6
+vol 117
+cdelay 6
+vol 121
+cdelay 6
+vol 124
+cdelay 6
+vol 125
+delay 0X126
+end
+
+.channel chan_fn_B67
+vol 126
+cdelay 6
+vol 126
+cdelay 6
+vol 126
+cdelay 6
+vol 124
+cdelay 6
+vol 120
+cdelay 6
+vol 118
+cdelay 6
+vol 116
+cdelay 6
+vol 112
+cdelay 6
+vol 109
+cdelay 6
+vol 108
+cdelay 6
+vol 104
+cdelay 6
+vol 101
+cdelay 6
+vol 98
+cdelay 6
+vol 96
+cdelay 6
+vol 94
+cdelay 6
+vol 90
+cdelay 6
+vol 87
+cdelay 6
+vol 85
+cdelay 6
+vol 82
+cdelay 6
+vol 79
+cdelay 6
+vol 77
+cdelay 6
+vol 73
+cdelay 6
+vol 72
+cdelay 6
+vol 69
+cdelay 6
+vol 65
+cdelay 6
+vol 62
+cdelay 6
+vol 61
+cdelay 6
+vol 57
+cdelay 6
+vol 55
+cdelay 6
+vol 51
+cdelay 6
+vol 48
+cdelay 6
+vol 47
+cdelay 6
+end
+
+.channel chan_fn_BC8
+pan 64
+cdelay 8
+pan 64
+cdelay 8
+pan 74
+cdelay 8
+pan 54
+cdelay 8
+pan 84
+cdelay 8
+pan 44
+cdelay 8
+pan 94
+cdelay 8
+pan 34
+cdelay 8
+pan 104
+cdelay 8
+pan 24
+cdelay 8
+pan 114
+cdelay 8
+pan 14
+cdelay 8
+pan 124
+cdelay 8
+pan 4
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+cdelay 8
+pan 127
+cdelay 8
+pan 0
+delay 0XC8
+end
+
+.layer layer_fn_C13
+notedv PITCH_G3, 0X60, 68
+notevg PITCH_GF3, 58, 0
+end
+
+.layer layer_fn_C1A
+notedv PITCH_BF3, 0X90, 76
+notevg PITCH_C4, 82, 0
+end
+
+.layer layer_fn_C22
+notedv PITCH_A3, 0X90, 85
+notedv PITCH_C4, 0X30, 84
+end
+
+.layer layer_fn_C2A
+notedv PITCH_D4, 0X90, 94
+notedv PITCH_C4, 0X30, 86
+end
+
+.layer layer_fn_C32
+notedv PITCH_G3, 0X8, 77
+notevg PITCH_A3, 82, 0
+notevg PITCH_G3, 83, 0
+notevg PITCH_A3, 84, 0
+notevg PITCH_BF3, 85, 0
+notevg PITCH_G3, 83, 0
+notevg PITCH_A3, 81, 0
+notevg PITCH_BF3, 79, 0
+notevg PITCH_G3, 76, 0
+notevg PITCH_A3, 73, 0
+notevg PITCH_BF3, 69, 0
+notevg PITCH_G3, 65, 0
+notevg PITCH_A3, 61, 0
+notevg PITCH_BF3, 57, 0
+notevg PITCH_G3, 53, 0
+notevg PITCH_A3, 49, 0
+notevg PITCH_BF3, 45, 0
+notevg PITCH_G3, 41, 0
+notevg PITCH_A3, 36, 0
+notevg PITCH_BF3, 32, 0
+notevg PITCH_G3, 28, 0
+notevg PITCH_A3, 23, 0
+notevg PITCH_BF3, 19, 0
+notedvg PITCH_G3, 0XC8, 14, 245
+end
+
+.layer layer_fn_C7D
+notedvg PITCH_G4, 0X8, 93, 96
+notevg PITCH_G4, 90, 96
+notevg PITCH_G4, 89, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 85, 96
+notevg PITCH_G4, 83, 96
+notevg PITCH_G4, 81, 96
+notevg PITCH_G4, 79, 96
+notevg PITCH_G4, 76, 96
+notevg PITCH_G4, 73, 96
+notevg PITCH_G4, 69, 96
+notevg PITCH_G4, 65, 96
+notevg PITCH_G4, 61, 96
+notevg PITCH_G4, 57, 96
+notevg PITCH_G4, 53, 96
+notevg PITCH_G4, 49, 96
+notevg PITCH_G4, 45, 96
+notevg PITCH_G4, 41, 96
+notevg PITCH_G4, 36, 96
+notevg PITCH_G4, 32, 96
+notevg PITCH_G4, 28, 96
+notevg PITCH_G4, 23, 96
+notevg PITCH_G4, 19, 96
+notedvg PITCH_G4, 0XC8, 14, 249
+end

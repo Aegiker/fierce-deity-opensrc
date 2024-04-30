@@ -1,0 +1,953 @@
+<?xml version="1.0" ?>
+<Soundfont Medium="Cartridge" CachePolicy="Permanent" Symbol="gSoundEffectsFont1">
+	<SampleBanks>
+		<Bank Name="0_Sound_Effects"/>
+	</SampleBanks>
+	<Instruments>
+		<Instrument Name="Step - Ground" Index="0" Enum="STEP_GROUND" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Ground.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Sand" Index="1" Enum="STEP_SAND" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Sand.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Rock" Index="2" Enum="STEP_ROCK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Rock.aifc" Pitch="0.7491534948348999"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Jabu Jabu" Index="3" Enum="STEP_JABU" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Jabu_Jabu.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Water" Index="4" Enum="STEP_WATER" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Water.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Carpet" Index="5" Enum="STEP_CARPET_0" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Carpet.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Thick Carpet" Index="6" Enum="STEP_CARPET_1" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Thick_Carpet.aifc" Pitch="0.18728849291801453"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Tall Grass" Index="7" Enum="STEP_GRASS" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Tall_Grass.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Wood" Index="11" Enum="STEP_WOOD" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Wood.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Synth Pad" Index="8" Enum="SYNTH" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Synth_Pad_Sting.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Small Splash" Index="9" Enum="WATER_SPLASH_S" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Small_Splash.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Drop" Index="10" Enum="DROP" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Crunchy_Drop.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Sliding Block" Index="12" Enum="SLIDE_BLOCK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Sliding_Block.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Boots Sliding" Index="13" Enum="SLIDE_LINK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Boots_Sliding.aifc" Pitch="0.7256249785423279"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Heavy Slide" Index="14" Enum="SLIDE_HEAVY" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Heavy_Slide.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Wet Slide" Index="16" Enum="SLIDE_WET" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="High_Static.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Distortion Effect" Index="17" Enum="DISTORTION" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Distorted_Static.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Fire Wall" Index="18" Enum="FIRE_WALL" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Heavy_Static.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Water Splash" Index="19" Enum="WATER_SPLASH" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Large_Water_Splash.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Swimming" Index="20" Enum="WATER_SWIM" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Swimming.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Crash and Gunshot" Index="21" Enum="SLAM_GUNSHOT" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Stone_Doof.aifc" Pitch="0.5"/>
+			<HighKey Sample="Gunshot.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Step - Wooden Bridge" Index="22" Enum="STEP_BRIDGE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Wooden_Bridge.aifc" Pitch="0.7937005162239075"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Fire" Index="23" Enum="STEP_FIRE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Fire.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Iron Boots" Index="24" Enum="STEP_IRON" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Iron_Boots_2.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Step - Ice" Index="25" Enum="STEP_ICE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Step_Ice.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Fire and Wind" Index="15" Enum="FIRE_WIND" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Crackling_Fire_Keese.aifc" Pitch="0.5"/>
+			<HighKey Sample="Howling_Wind.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Sword Strike" Index="26" Enum="SWORD_STRIKE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Metal_Clink.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Sword_Strike.aifc" MinNote="B6" Pitch="0.04306640475988388"/>
+		</Instrument>
+		<Instrument Name="Sword Miss" Index="27" Enum="SWORD_MISS" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Whish.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Put Away Sword" Index="28" Enum="SWORD_SHEATHE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Sheathe_Sword.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Draw Sword" Index="29" Enum="SWORD_DRAW" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Draw_Sword.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Swing Sword" Index="30" Enum="SWORD_SWING" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Air_Swish.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Air Whistle" Index="31" Enum="WHISTLE_AIR" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Air_Whistle.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Bow Sounds" Index="33" Enum="BOW" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Bow_Pulled_Taut.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Bowstring_Twang.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Metallic Strike" Index="32" Enum="SWORD_HIT_SHIELD" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Sword_Striking_Metal_Shield.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Moving Metal Chain" Index="34" Enum="CHAIN" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Moving_Metal_Chain.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Bomb Fuses" Index="35" Enum="BOMB" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Hissing_Fuse.aifc" Pitch="0.5"/>
+			<HighKey Sample="Bombchu_Motor.aifc" MinNote="B6" Pitch="0.04306640475988388"/>
+		</Instrument>
+		<Instrument Name="Heavy Thump" Index="36" Enum="SLAM_HEAVY" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Heavy_Thump.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Rupee" Index="91" Enum="RUPEE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Rupee.aifc" Pitch="0.23740343749523163"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Ocarina 1" Index="52" Enum="OCARINA_0" Decay="-21" Envelope="Env_00002a40">
+			<LowKey/>
+			<MediumKey Sample="Ocarina.aifc" Pitch="0.6299610137939453"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Ocarina 2" Index="53" Enum="OCARINA_1" Decay="-20" Envelope="Env_00002aa0">
+			<LowKey/>
+			<MediumKey Sample="Ocarina.aifc" Pitch="0.6299610137939453"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Egg Hatches" Index="37" Enum="EGG_BREAK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Egg_Hatching.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Arrow Thunk" Index="38" Enum="ARROW_WOOD" Decay="-56" Envelope="Env_00002a60">
+			<LowKey/>
+			<MediumKey Sample="Arrow_Thunk_in_Wood.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Air Whoosh" Index="39" Enum="WHOOSH" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Air_Whoosh.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Broken Wood" Index="40" Enum="WOOD_BREAK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Broken_Wood.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Whip and Cork" Index="41" Enum="WHIP_CORK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Whip_Snap.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Popping_Cork.aifc" MinNote="B6" Pitch="0.04306640475988388"/>
+		</Instrument>
+		<Instrument Name="Buzzing Synth" Index="42" Enum="SYNTH_BUZZ" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Buzzing_Synth.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Soft Thump" Index="43" Enum="SOFT_HIT" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Soft_Thump.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Eye of Truth" Index="44" Enum="EYE_OF_TRUTH" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Eye_of_Truth.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Dramatic_Swoosh.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Wooden Door" Index="45" Enum="DOOR_WOOD" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Opening_Wooden_Door.aifc" Pitch="0.5"/>
+			<HighKey Sample="Closing_Wooden_Door.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument/>
+		<Instrument Name="Explosion 1" Index="47" Enum="EXPLOSION_0" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Explosion_1.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Gallop" Index="48" Enum="HORSE_GALLOP" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Gallop.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Horse Sounds" Index="50" Enum="HORSE_VOCALS" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Horse_Neigh.aifc" Pitch="0.5"/>
+			<HighKey Sample="Horse_Snort.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Water Sounds" Index="51" Enum="WATER_FLOWING" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Flowing_Creek.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Rushing_Waterfall.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Metal Door and Stone Shift" Index="54" Enum="DOOR_METAL" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Mechanically_Shifting_Stone.aifc" Pitch="0.5"/>
+			<HighKey Sample="Metal_Door.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Rolling Boulder" Index="55" Enum="ROLL_BOULDER" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Rolling_Boulder.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Bubbling Lava" Index="56" Enum="LAVA" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Bubbling_Lava.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Retracting Metal Chain" Index="57" Enum="CHAIN_RETRACT" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Retracting_Metal_Chain.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Animal Sounds" Index="58" Enum="ANIMALS_0" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Relaxed_Cucco_Clucks.aifc" Pitch="0.5"/>
+			<HighKey Sample="Frog_Ribbit.aifc" MinNote="B6" Pitch="0.026278000324964523"/>
+		</Instrument>
+		<Instrument Name="Stone Strike" Index="59" Enum="STONE_STRIKE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Stone_Strike.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Animal Cries" Index="61" Enum="ANIMALS_1" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Cucco_Crows.aifc" Pitch="0.5"/>
+			<HighKey Sample="Wolf_Howl.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Water Splish" Index="62" Enum="WATER_SPLISH" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Water_Splish.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Wooden Strike" Index="63" Enum="STICK_ATTACK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Wooden_Strike.aifc" Pitch="0.5"/>
+			<HighKey Sample="Clattering_Spear.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Flying Fairy" Index="64" Enum="FAIRY" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Flying_Fairy.aifc" Pitch="0.75"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Settled Stone Block" Index="65" Enum="BLOCK_LOCK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Settled_Stone_Block.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Creaking Sounds" Index="66" Enum="CREAK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Creaking_Door.aifc" Pitch="0.5"/>
+			<HighKey Sample="Creaking_Wood.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Flame Ignition" Index="67" Enum="IGNITE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Ignition.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Warp Circle Ambience" Index="68" Enum="WARP" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Warp_Circle_Ambience.aifc" Pitch="0.23596900701522827"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Fairy Magic" Index="69" Enum="FAIRY_MAGIC" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Fairy_Magic.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Broken Pottery + Charge-up" Index="70" Enum="POTTERY_ELECTRIC" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Ganons_Electrical_Charge.aifc" Pitch="0.5"/>
+			<HighKey Sample="Broken_Pottery.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Water Drips" Index="71" Enum="WATER_DRIP" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Water_Drips.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Underwater Bubbles" Index="72" Enum="WATER_BUBBLES" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Underwater_Bubbles.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Fire and Cow" Index="73" Enum="FIRE_COW" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Fire_Crackling.aifc" Pitch="0.5"/>
+			<HighKey Sample="Cow_Moo.aifc" MinNote="C7" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Flames and Thunder" Index="74" Enum="FLAME_THUNDER" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Flamethrower.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Lightning.aifc" MinNote="B6" Pitch="0.04306640475988388"/>
+		</Instrument>
+		<Instrument Name="Heavy Platform Rotating" Index="75" Enum="MECH_ROTATE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Heavy_Platform_Rotating.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Light Rock Slam" Index="76" Enum="SLAM_LIGHT" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Light_Rock_Slam.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Mechanical Ramp-Up" Index="77" Enum="MECH_CHARGE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Heavy_Rumbling.aifc" Pitch="0.5"/>
+			<HighKey Sample="Mechanical_Ramp-Up.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Flapping Cloak" Index="78" Enum="CLOAK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Flapping_Cloak.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Short Howling Wind" Index="60" Enum="WIND_HOWL_S" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Howling_Wind_Short.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="People Chattering" Index="79" Enum="CHATTER" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="People_Chattering.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Shattered_Glass.aifc" MinNote="C7" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Tearing Cloth" Index="80" Enum="CLOTH_TEAR" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Cloth_Ripping.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Dodongos and Dogs" Index="81" Enum="ROAR_BARK" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Dodongo_Roar.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Dog_Yip.aifc" MinNote="C7" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Shimmering Treasure" Index="46" Enum="SHIMMER" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Crystal_Synth_Low.aifc" Pitch="0.6890624761581421"/>
+			<HighKey Sample="Shimmering_Treasure.aifc" MinNote="C7" Pitch="0.04306640475988388"/>
+		</Instrument>
+		<Instrument Name="Dialogue Continue" Index="84" Enum="DING" Decay="-56" Envelope="Env_00002a60">
+			<LowKey/>
+			<MediumKey Sample="Dialogue_Continue_Harp.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Failed Song and Bells" Index="87" Enum="FAIL_BELLS" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Dong_Failed_Learning.aifc" Pitch="0.48724091053009033"/>
+			<HighKey Sample="Clanging_Bells.aifc" MinNote="C7" Pitch="0.04306640475988388"/>
+		</Instrument>
+		<Instrument Name="Whistle" Index="88" Enum="WHISTLE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Whistle.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Harp" Index="89" Enum="HARP" Decay="-45" Envelope="Env_00002a90">
+			<LowKey/>
+			<MediumKey Sample="Harp_1.aifc" Pitch="0.75"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Targeting Sounds" Index="90" Enum="Z_TARGET" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Z_Target.aifc" Pitch="0.5"/>
+			<HighKey Sample="Enemy_Target_Lock-On.aifc" MinNote="B6" Pitch="0.03125"/>
+		</Instrument>
+		<Instrument Name="Malon" Index="85" Enum="MALON" Decay="-5" Envelope="Env_00002a70">
+			<LowKey/>
+			<MediumKey Sample="Malon.aifc" Pitch="0.4340825080871582"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Person Whistling" Index="86" Enum="WHISTLE_PERSON" Decay="-5" Envelope="Env_00002a70">
+			<LowKey/>
+			<MediumKey Sample="Person_Whistling.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Accordion" Index="83" Enum="ACCORDION" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Accordion.aifc" Pitch="1.0"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Flute" Index="82" Enum="FLUTE" Decay="-5" Envelope="Env_00002a30">
+			<LowKey/>
+			<MediumKey Sample="Flute.aifc" Pitch="0.3337100148200989"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Adult Transform" Index="92" Enum="TRANSFORM_VOICE_ADULT" Decay="-5" Envelope="Env_MaxVol">
+			<LowKey/>
+			<MediumKey Sample="Adult_Transform.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Child Transform" Index="93" Enum="TRANSFORM_VOICE_CHILD" Decay="-5" Envelope="Env_MaxVol">
+			<LowKey/>
+			<MediumKey Sample="Child_Transform.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Mask Untransform" Index="94" Enum="FACE_CHANGE" Decay="-5" Envelope="Env_MaxVol">
+			<LowKey/>
+			<MediumKey Sample="Mask_Untransform.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Mask Attach" Index="95" Enum="TRANSFORM_MASK_BROKEN" Decay="-5" Envelope="Env_MaxVol">
+			<LowKey/>
+			<MediumKey Sample="Mask_Attach.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Lightning Hard" Index="96" Enum="LIGHTNING_HARD" Decay="-5" Envelope="Env_MaxVol">
+			<LowKey/>
+			<MediumKey Sample="Lightning_Hard.aifc" Pitch="0.5"/>
+			<HighKey/>
+		</Instrument>
+	</Instruments>
+	<Drums>
+		<Drum Name="Tambo Drum" Index="0" Enum="TAMBO" Decay="-45" Pan="64" Sample="Tambo_Drum.aifc" Envelope="Env_00002a90" Pitch="1.0"/>
+		<Drum Name="Small Cymbal" Index="1" Enum="TAMBO_H" Decay="-45" Pan="64" Sample="Small_Cymbal.aifc" Envelope="Env_00002a90" Pitch="1.1224620342254639"/>
+		<Drum Name="Rainfall" Index="2" Enum="RAIN_0" Decay="-45" Pan="24" Sample="Rainfall.aifc" Envelope="Env_00002a90" Pitch="0.75"/>
+		<Drum Name="Rainfall 2" Index="3" Enum="RAIN_1" Decay="-45" Pan="104" Sample="Rainfall.aifc" Envelope="Env_00002a90" Pitch="0.7079062461853027"/>
+	</Drums>
+	<SoundEffects>
+		<SoundEffect Name="Adult Link - Attack 1" Index="0" Enum="LINK_ADULT_ATTACK_0" Sample="Adult_Link_Attack_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Attack 2" Index="1" Enum="LINK_ADULT_ATTACK_1" Sample="Adult_Link_Attack_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Attack 3" Index="2" Enum="LINK_ADULT_ATTACK_2" Sample="Adult_Link_Attack_3.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Attack 4" Index="3" Enum="LINK_ADULT_ATTACK_3" Sample="Adult_Link_Attack_4.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Strong Attack 1" Index="4" Enum="LINK_ADULT_MAJOR_0" Sample="Adult_Link_Strong_Attack_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Strong Attack 2" Index="5" Enum="LINK_ADULT_MAJOR_1" Sample="Adult_Link_Strong_Attack_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Dangling Grunt" Index="6" Enum="LINK_ADULT_LEDGE_0" Sample="Adult_Link_Dangling_Grunt.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Climb Edge" Index="7" Enum="LINK_ADULT_CLIMB" Sample="Adult_Link_Climb_Edge.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Dangling Gasp 1" Index="8" Enum="LINK_ADULT_LEDGE_1" Sample="Adult_Link_Dangling_Gasp_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Hurt 1" Index="9" Enum="LINK_ADULT_HURT_0" Sample="Adult_Link_Hurt_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Hurt 2" Index="10" Enum="LINK_ADULT_HURT_1" Sample="Adult_Link_Hurt_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Hurt 3" Index="11" Enum="LINK_ADULT_HURT_2" Sample="Adult_Link_Hurt_3.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Hurt 4" Index="12" Enum="LINK_ADULT_HURT_3" Sample="Adult_Link_Hurt_4.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Knocked Back" Index="13" Enum="LINK_ADULT_KNOCKBACK" Sample="Adult_Link_Knocked_Back.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Hurt 5" Index="14" Enum="LINK_ADULT_HURT_4" Sample="Adult_Link_Hurt_5.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Falling 1" Index="15" Enum="LINK_ADULT_FALL_0" Sample="Adult_Link_Falling_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Falling 2" Index="16" Enum="LINK_ADULT_FALL_1" Sample="Adult_Link_Falling_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Gasp 1" Index="17" Enum="LINK_ADULT_GASP_0" Sample="Adult_Link_Gasp_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Gasp 2" Index="18" Enum="LINK_ADULT_GASP_1" Sample="Adult_Link_Gasp_3.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Pant 1" Index="19" Enum="LINK_ADULT_PANT_0" Sample="Adult_Link_Pant_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Dying Gasp" Index="20" Enum="LINK_CHILD_DEATH_0" Sample="Child_Link_Dying_Gasp.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Spur Horse 1" Index="21" Enum="LINK_ADULT_SPUR_0" Sample="Adult_Link_Spur_Horse_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Spur Horse 2" Index="22" Enum="LINK_ADULT_SPUR_1" Sample="Adult_Link_Spur_Horse_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Pant 2" Index="23" Enum="LINK_ADULT_PANT_1" Sample="Adult_Link_Pant_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Painful Landing" Index="24" Enum="LINK_ADULT_FALL_DMG" Sample="Adult_Link_Painful_Landing.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Dangling Gasp 2" Index="25" Enum="LINK_ADULT_LEDGE_2" Sample="Adult_Link_Dangling_Gasp_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Hup" Index="26" Enum="LINK_ADULT_JUMP" Sample="Adult_Link_Hup.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Gasp 3" Index="27" Enum="LINK_ADULT_GASP_2" Sample="Adult_Link_Gasp_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Attack 1" Index="28" Enum="LINK_CHILD_ATTACK_0" Sample="Child_Link_Attack_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Attack 2" Index="29" Enum="LINK_CHILD_ATTACK_1" Sample="Child_Link_Attack_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Attack 3" Index="30" Enum="LINK_CHILD_ATTACK_2" Sample="Child_Link_Attack_3.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Attack 4" Index="31" Enum="LINK_CHILD_ATTACK_3" Sample="Child_Link_Attack_4.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Strong Attack 1" Index="32" Enum="LINK_CHILD_STRONG_0" Sample="Child_Link_Strong_Attack_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Strong Attack 2" Index="33" Enum="LINK_CHILD_STRONG_1" Sample="Child_Link_Strong_Attack_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Dangling Gasp 1" Index="34" Enum="LINK_CHILD_LEDGE_0" Sample="Child_Link_Dangling_Gasp_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Sigh 1" Index="35" Enum="LINK_CHILD_SIGH_0" Sample="Child_Link_Sigh_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Sigh 2" Index="36" Enum="LINK_CHILD_SIGH_1" Sample="Child_Link_Sigh_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Hurt 1" Index="37" Enum="LINK_CHILD_HURT_0" Sample="Child_Link_Hurt_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Hurt 2" Index="38" Enum="LINK_CHILD_HURT_1" Sample="Child_Link_Hurt_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Hurt 3" Index="39" Enum="LINK_CHILD_HURT_2" Sample="Child_Link_Hurt_3.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Hurt 4" Index="40" Enum="LINK_CHILD_HURT_3" Sample="Child_Link_Hurt_4.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Knocked Back" Index="41" Enum="LINK_CHILD_KNOCKBACK" Sample="Child_Link_Knocked_Back.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Hurt 5" Index="42" Enum="LINK_CHILD_HURT_4" Sample="Child_Link_Hurt_5.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Falling 1" Index="43" Enum="LINK_CHILD_FALL_0" Sample="Child_Link_Falling_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Falling 2" Index="44" Enum="LINK_CHILD_FALL_1" Sample="Child_Link_Falling_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Gasp 1" Index="45" Enum="LINK_CHILD_GASP_0" Sample="Child_Link_Gasp_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Gasp 2" Index="46" Enum="LINK_CHILD_GASP_1" Sample="Child_Link_Gasp_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Wheeze" Index="47" Enum="LINK_CHILD_WHEEZE" Sample="Child_Link_Wheeze.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Exhausted Panting" Index="48" Enum="LINK_CHILD_PANT" Sample="Child_Link_Exhausted_Panting.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Painful Landing" Index="49" Enum="LINK_CHILD_FALL_DMG" Sample="Child_Link_Painful_Landing.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Danging Gasp 2" Index="50" Enum="LINK_CHILD_LEDGE_1" Sample="Child_Link_Dangling_Gasp_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Glug" Index="51" Enum="LINK_CHILD_DRINK" Sample="Child_Link_Glug.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Refreshed" Index="52" Enum="LINK_CHILD_REFRESH" Sample="Child_Link_Refreshed.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Hup 1" Index="53" Enum="LINK_CHILD_JUMP_0" Sample="Child_Link_Hup_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Hup 2" Index="54" Enum="LINK_ADULT_JUMP_1" Sample="Child_Link_Hup_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Glug" Index="55" Enum="LINK_ADULT_DRINK" Sample="Adult_Link_Glug.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Refreshed" Index="56" Enum="LINK_ADULT_REFRESH" Sample="Adult_Link_Refreshed.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Navi - Watch Out!" Index="57" Enum="NAVI_WATCH_OUT" Sample="Navi_Watch_Out!.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Navi - Look!" Index="58" Enum="NAVI_LOOK" Sample="Navi_Look!.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Navi - Hey!" Index="59" Enum="NAVI_HEY" Sample="Navi_Hey!.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Adult Link - Lift" Index="60" Enum="LINK_ADULT_LIFT" Sample="Adult_Link_Lift_Unused.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Cast Spell" Index="61" Enum="LINK_ADULT_SPELL" Sample="Adult_Link_Cast_Attacking_Magic.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Charge Up" Index="62" Enum="LINK_CHILD_CHARGE" Sample="Child_Link_Charge_Up_Unused.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Cast Spell" Index="63" Enum="LINK_CHILD_SPELL" Sample="Child_Link_Cast_Attack_Spell.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Dying Gasp" Index="64" Enum="LINK_CHILD_DEATH_1" Sample="Child_Link_Dying_Gasp.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Strangled" Index="65" Enum="LINK_CHILD_STRANGLED" Sample="Child_Link_Strangled_Unused.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Gasp 3" Index="66" Enum="LINK_CHILD_GASP_2" Sample="Child_Link_Gasp_3.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Shiver" Index="67" Enum="LINK_CHILD_SHIVER" Sample="Child_Link_Shivers.aifc" Pitch="0.625"/>
+		<SoundEffect/>
+		<SoundEffect Name="Child Link - Sneeze" Index="69" Enum="LINK_CHILD_SNEEZE" Sample="Child_Link_Sneeze.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Grunt" Index="70" Enum="LINK_CHILD_GRUNT" Sample="Child_Link_Grunt.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Moans From Heat" Index="71" Enum="LINK_CHILD_HEAT_0" Sample="Child_Link_Moans_From_Heat.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Awakening Grunt" Index="72" Enum="LINK_CHILD_WAKE_0" Sample="Child_Link_Awakening_Grunt.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Wiping Off Sweat" Index="73" Enum="LINK_CHILD_HEAT_1" Sample="Child_Link_Wiping_Off_Sweat.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Yawn Starts" Index="74" Enum="LINK_CHILD_WAKE_1" Sample="Child_Link_Yawn_Starts.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Yawn and Stretch" Index="75" Enum="LINK_CHILD_WAKE_2" Sample="Child_Link_Yawn_and_Stretch.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Stretch Refreshingly" Index="76" Enum="LINK_CHILD_WAKE_3" Sample="Child_Link_Stretch_Refreshingly.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Hurt 6" Index="77" Enum="LINK_ADULT_HURT_5" Sample="Adult_Link_Hurt_Unused.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Choking" Index="78" Enum="LINK_ADULT_CHOKE" Sample="Adult_Link_Choking.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Gasping" Index="79" Enum="LINK_ADULT_GASPING" Sample="Adult_Link_Gasping_Unused.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Small Gasp" Index="80" Enum="LINK_ADULT_GASP_3" Sample="Adult_Link_Small_Gasp_Unused.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Unsettled Moan" Index="81" Enum="LINK_ADULT_MOAN" Sample="Adult_Link_Unsettled_Moan.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Sneeze" Index="82" Enum="LINK_ADULT_SNEEZE" Sample="Adult_Link_Sneezes.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Sigh 1" Index="83" Enum="LINK_ADULT_SIGH_0" Sample="Adult_Link_Sigh_1.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Sigh 2" Index="84" Enum="LINK_ADULT_SIGH_1" Sample="Adult_Link_Sigh_2.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Sigh 3" Index="85" Enum="LINK_ADULT_SIGH_2" Sample="Adult_Link_Sigh_3.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Stretch Start" Index="86" Enum="LINK_ADULT_STRETCH_0" Sample="Adult_Link_Stretch_Start.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Stretching" Index="87" Enum="LINK_ADULT_STRETCH_1" Sample="Adult_Link_Stretching.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Adult Link - Finished Stretching" Index="88" Enum="LINK_ADULT_STRETCH_2" Sample="Adult_Link_Finished_Stretching.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Talon Snoring" Index="89" Enum="TALON_SNORE" Sample="Talon_Snoring.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Talon Startled" Index="90" Enum="TALON_SURPRISE" Sample="Talon_Startled.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Talon Distressed" Index="91" Enum="TALON_CURIOUS" Sample="Talon_Distressed.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Talon Fearful" Index="92" Enum="TALON_SCARED" Sample="Talon_Fearful.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Ingo Yowls" Index="93" Enum="INGO_MAD" Sample="Ingo_Yowls.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Ingo Exclaims" Index="94" Enum="INGO_SHOUT" Sample="Ingo_Exclaims.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Ingo Spurs Horse 1" Index="95" Enum="INGO_SPUR_0" Sample="Ingo_Hyeaaaaugh.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Ingo Spurs Horse 2" Index="96" Enum="INGO_SPUR_1" Sample="Ingo_Hyah!.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Great Fairy Laughs" Index="97" Enum="GREAT_FAIRY_LAUGH_0" Sample="Great_Fairy_Laughter.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Great Fairy Titters" Index="98" Enum="GREAT_FAIRY_LAUGH_1" Sample="Great_Fairy_Titters.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Zelda Gasps" Index="99" Enum="ZELDA_GASP" Sample="Girl_Gasps.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Screams 1" Index="100" Enum="GIRL_SCREAM_0" Sample="Girl_Screams_1.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Inquiring 1" Index="101" Enum="GIRL_INQUIRE_0" Sample="Girl_Inquiring_1.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Navi - Watch Out! 2" Index="102" Enum="NAVI_WATCH_OUT_1" Sample="Navi_Watch_Out!.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Navi - Look! 2" Index="103" Enum="NAVI_LOOK_1" Sample="Navi_Look!.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Navi - Hey! 2" Index="104" Enum="NAVI_HEY_1" Sample="Navi_Hey!.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Hurt" Index="105" Enum="GIRL_HURT" Sample="Girl_Hurt.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Startled 1" Index="106" Enum="GIRL_SHOCK_0" Sample="Girl_Startled_1.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Screams 2" Index="107" Enum="GIRL_SCREAM_1" Sample="Girl_Screams_2.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Delighted" Index="108" Enum="GIRL_GIGGLE" Sample="Girl_Delighted.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Surprised 1" Index="109" Enum="GIRL_SURPRISE_0" Sample="Girl_Surprised_1.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Surprised 2" Index="110" Enum="GIRL_SURPRISE_1" Sample="Girl_Surprised_2.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Discombobulated" Index="111" Enum="GIRL_UPSET" Sample="Girl_Discombobulated_Unused.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Skulltula Screaming" Index="112" Enum="SKULLTULA_UPSET" Sample="Skulltula_Screaming.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Skulltula Grunts Angrily" Index="113" Enum="SKULLTULA_ANGRY" Sample="Skulltula_Grunts_Angrily.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Sighs" Index="114" Enum="GIRL_SIGH_0" Sample="Girl_Sighs.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Startled 2" Index="115" Enum="GIRL_SHOCK_1" Sample="Girl_Startled_2.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Inquiring 2" Index="116" Enum="GIRL_INQUIRE_1" Sample="Girl_Inquiring_2.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Disappointed" Index="117" Enum="GIRL_SIGH_1" Sample="Girl_Disappointed.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Laughing" Index="118" Enum="GIRL_LAUGH" Sample="Girl_Laughing.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Startled 3" Index="119" Enum="GIRL_SHOCK_2" Sample="Girl_Startled_3.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Grunts in Effort" Index="120" Enum="GIRL_GRUNT" Sample="Girl_Grunts_in_Effort.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Woman Yells" Index="121" Enum="WOMAN_YELL_0" Sample="Woman_Yells.aifc" Pitch="0.44544950127601624"/>
+		<SoundEffect Name="Woman Startled, Yells" Index="122" Enum="WOMAN_YELL_1" Sample="Woman_Yells_Startled.aifc" Pitch="0.44544950127601624"/>
+		<SoundEffect Name="Woman Grunts" Index="123" Enum="WOMAN_GRUNT" Sample="Woman_Grunts.aifc" Pitch="0.44544950127601624"/>
+		<SoundEffect Name="Navi - Listen!" Index="124" Enum="NAVI_LISTEN" Sample="Navi_Listen!.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Woman Hup" Index="125" Enum="WOMAN_HUP" Sample="Woman_Hup.aifc" Pitch="0.44544950127601624"/>
+		<SoundEffect Name="Girl Screams 3" Index="126" Enum="GIRL_SCREAM_2" Sample="Girl_Screams_3.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Screams 4" Index="127" Enum="GIRL_SCREAM_3" Sample="Girl_Screams_4.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Sighs Contentedly" Index="128" Enum="GIRL_SIGH_2" Sample="Girl_Sighs_Contentedly.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Surprised 3" Index="129" Enum="GIRL_SHOCK_3" Sample="Girl_Surprised_3.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Girl Scared" Index="130" Enum="GIRL_SCARED" Sample="Girl_Scared.aifc" Pitch="0.5"/>
+		<SoundEffect Name="King Zora Scoots" Index="131" Enum="MWINK" Sample="King_Zora_Scoots.aifc" Pitch="0.5"/>
+		<SoundEffect Name="Navi - Hello!" Index="132" Enum="NAVI_HELLO" Sample="Navi_Hello!.aifc" Pitch="0.5"/>
+		<SoundEffect/>
+		<SoundEffect Name="Adult Link - Dramatic Gasp" Index="134" Enum="LINK_ADULT_GASP_4" Sample="Adult_Link_Dramatic_Gasp.aifc" Pitch="0.625"/>
+		<SoundEffect Name="Child Link - Dramatic Gasp" Index="135" Enum="LINK_CHILD_GASP_3" Sample="Child_Link_Dramatic_Gasp.aifc" Pitch="0.625"/>
+	</SoundEffects>
+	<Envelopes>
+          <Envelope Name="Env_MaxVol">
+            <Script>
+                <Point Delay="1" Value="32700"/>
+                <Point Delay="32700" Value="32700"/>
+                <Point Delay="ADSR_HANG" Value="0"/>
+            </Script>
+        </Envelope>
+		<Envelope Name="Env_00002a30">
+			<Script>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="32700" Value="32700"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_00002a40">
+			<Script>
+				<Point Delay="1" Value="0"/>
+				<Point Delay="30" Value="32700"/>
+				<Point Delay="690" Value="0"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_00002a50">
+			<Script>
+				<Point Delay="ADSR_DISABLE" Value="0"/>
+				<Point Delay="30" Value="32700"/>
+				<Point Delay="690" Value="0"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_00002a60">
+			<Script>
+				<Point Delay="1" Value="32727"/>
+				<Point Delay="30" Value="29000"/>
+				<Point Delay="690" Value="0"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_00002a70">
+			<Script>
+				<Point Delay="8" Value="32700"/>
+				<Point Delay="5000" Value="0"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_00002a80">
+			<Script>
+				<Point Delay="8" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_00002a90">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="298" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_00002aa0">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+	</Envelopes>
+	<Samples>
+		<Sample Name="SampleHeader00000180" File="Step_Ground.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000230" File="Step_Sand.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000250" File="Step_Rock.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000270" File="Step_Jabu_Jabu.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000290" File="Step_Water.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000002b0" File="Step_Carpet.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000002d0" File="Step_Thick_Carpet.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000002f0" File="Step_Tall_Grass.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000310" File="Synth_Pad_Sting.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000330" File="Small_Splash.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000350" File="Crunchy_Drop.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000370" File="Step_Wood.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000390" File="Sliding_Block.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000003d0" File="Boots_Sliding.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000410" File="Heavy_Slide.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000450" File="High_Static.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000490" File="Distorted_Static.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000004d0" File="Heavy_Static.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000510" File="Large_Water_Splash.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000550" File="Swimming.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000570" File="Stone_Doof.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000590" File="Step_Wooden_Bridge.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000005b0" File="Step_Fire.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000005d0" File="Iron_Boots_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000005f0" File="Step_Ice.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000610" File="Crackling_Fire_Keese.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000650" File="Metal_Clink.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000670" File="Whish.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000690" File="Sheathe_Sword.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000006b0" File="Draw_Sword.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000006d0" File="Air_Swish.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000006f0" File="Air_Whistle.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000710" File="Bow_Pulled_Taut.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000730" File="Sword_Striking_Metal_Shield.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000750" File="Moving_Metal_Chain.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000790" File="Hissing_Fuse.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000007d0" File="Heavy_Thump.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000007f0" File="Egg_Hatching.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000810" File="Arrow_Thunk_in_Wood.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000830" File="Air_Whoosh.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000850" File="Broken_Wood.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000870" File="Whip_Snap.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000890" File="Buzzing_Synth.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000008d0" File="Soft_Thump.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000008f0" File="Sword_Strike.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000910" File="Eye_of_Truth.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000950" File="Popping_Cork.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000970" File="Bowstring_Twang.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000009b0" File="Bombchu_Motor.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000009f0" File="Rupee.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000a10" File="Opening_Wooden_Door.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000a30" File="Closing_Wooden_Door.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000a50" File="Explosion_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000a70" File="Gallop.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000a90" File="Horse_Neigh.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000ab0" File="Flowing_Creek.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000af0" File="Rushing_Waterfall.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000b30" File="Mechanically_Shifting_Stone.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000b70" File="Rolling_Boulder.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000bb0" File="Bubbling_Lava.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000bf0" File="Retracting_Metal_Chain.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000c30" File="Relaxed_Cucco_Clucks.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000c70" File="Stone_Strike.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000c90" File="Cucco_Crows.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000cb0" File="Horse_Snort.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000cd0" File="Water_Splish.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000cf0" File="Wooden_Strike.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000d10" File="Flying_Fairy.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000d50" File="Settled_Stone_Block.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000d70" File="Creaking_Door.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000d90" File="Creaking_Wood.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000dd0" File="Ignition.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000df0" File="Warp_Circle_Ambience.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000e80" File="Fairy_Magic.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000ec0" File="Lightning.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000f50" File="Howling_Wind.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00000fe0" File="Rainfall.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001070" File="Howling_Wind_Short.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000010b0" File="Water_Drips.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000010f0" File="Underwater_Bubbles.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001130" File="Fire_Crackling.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001170" File="Heavy_Platform_Rotating.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000011b0" File="Light_Rock_Slam.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000011d0" File="Flapping_Cloak.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000011f0" File="People_Chattering.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001230" File="Cloth_Ripping.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001270" File="Mechanical_Ramp-Up.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000012b0" File="Crystal_Synth_Low.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000012f0" File="Shimmering_Treasure.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001330" File="Gunshot.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001350" File="Wolf_Howl.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001370" File="Frog_Ribbit.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001390" File="Dog_Yip.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000013b0" File="Metal_Door.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000013d0" File="Cow_Moo.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000013f0" File="Dialogue_Continue_Harp.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001430" File="Dong_Failed_Learning.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001450" File="Whistle.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001490" File="Clanging_Bells.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000014b0" File="Person_Whistling.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000014f0" File="Ocarina.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001580" File="Accordion.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001610" File="Harp_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000016a0" File="Malon.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001730" File="Flute.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000017c0" File="Tambo_Drum.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000017e0" File="Small_Cymbal.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001800" File="Z_Target.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001820" File="Enemy_Target_Lock-On.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001840" File="Adult_Link_Spur_Horse_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001860" File="Adult_Link_Spur_Horse_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001880" File="Adult_Link_Attack_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000018a0" File="Adult_Link_Attack_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000018c0" File="Adult_Link_Attack_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000018e0" File="Adult_Link_Attack_4.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001900" File="Adult_Link_Hup.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001920" File="Adult_Link_Gasp_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001940" File="Adult_Link_Strong_Attack_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001960" File="Adult_Link_Strong_Attack_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001980" File="Adult_Link_Dangling_Grunt.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000019a0" File="Adult_Link_Dangling_Gasp_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000019c0" File="Adult_Link_Climb_Edge.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000019e0" File="Adult_Link_Dangling_Gasp_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001a00" File="Adult_Link_Hurt_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001a20" File="Adult_Link_Hurt_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001a40" File="Adult_Link_Hurt_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001a60" File="Adult_Link_Hurt_4.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001a80" File="Adult_Link_Knocked_Back.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001aa0" File="Adult_Link_Hurt_5.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001ac0" File="Adult_Link_Falling_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001ae0" File="Adult_Link_Falling_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001b00" File="Adult_Link_Gasp_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001b20" File="Adult_Link_Gasp_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001b40" File="Adult_Link_Pant_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001b60" File="Adult_Link_Pant_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001b80" File="Adult_Link_Glug.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001ba0" File="Adult_Link_Refreshed.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001bc0" File="Adult_Link_Lift_Unused.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001be0" File="Adult_Link_Cast_Attacking_Magic.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001c00" File="Adult_Link_Painful_Landing.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001c20" File="Adult_Link_Dramatic_Gasp.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001c40" File="Adult_Link_Hurt_Unused.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001c60" File="Adult_Link_Choking.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001c80" File="Adult_Link_Gasping_Unused.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001ca0" File="Adult_Link_Small_Gasp_Unused.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001cc0" File="Adult_Link_Unsettled_Moan.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001ce0" File="Adult_Link_Sneezes.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001d00" File="Adult_Link_Sigh_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001d20" File="Adult_Link_Sigh_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001d40" File="Adult_Link_Sigh_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001d60" File="Adult_Link_Stretch_Start.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001d80" File="Adult_Link_Stretching.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001da0" File="Adult_Link_Finished_Stretching.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001dc0" File="Child_Link_Attack_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001de0" File="Child_Link_Attack_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001e00" File="Child_Link_Attack_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001e20" File="Child_Link_Attack_4.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001e40" File="Child_Link_Hup_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001e60" File="Child_Link_Hup_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001e80" File="Child_Link_Strong_Attack_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001ea0" File="Child_Link_Strong_Attack_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001ec0" File="Child_Link_Dangling_Gasp_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001ee0" File="Child_Link_Dangling_Gasp_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001f00" File="Child_Link_Sigh_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001f20" File="Child_Link_Sigh_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001f40" File="Child_Link_Hurt_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001f60" File="Child_Link_Hurt_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001f80" File="Child_Link_Hurt_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001fa0" File="Child_Link_Hurt_4.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001fc0" File="Child_Link_Knocked_Back.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00001fe0" File="Child_Link_Hurt_5.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002000" File="Child_Link_Falling_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002020" File="Child_Link_Falling_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002040" File="Child_Link_Gasp_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002060" File="Child_Link_Gasp_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002080" File="Child_Link_Wheeze.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000020a0" File="Child_Link_Exhausted_Panting.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000020c0" File="Child_Link_Glug.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000020e0" File="Child_Link_Refreshed.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002100" File="Child_Link_Charge_Up_Unused.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002120" File="Child_Link_Cast_Attack_Spell.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002140" File="Child_Link_Painful_Landing.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002160" File="Child_Link_Dramatic_Gasp.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002180" File="Child_Link_Dying_Gasp.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000021a0" File="Child_Link_Strangled_Unused.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000021c0" File="Child_Link_Gasp_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000021e0" File="Child_Link_Shivers.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002220" File="Child_Link_Sneeze.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002240" File="Child_Link_Grunt.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002260" File="Child_Link_Moans_From_Heat.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002280" File="Child_Link_Awakening_Grunt.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000022a0" File="Child_Link_Wiping_Off_Sweat.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000022c0" File="Child_Link_Yawn_Starts.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000022e0" File="Child_Link_Yawn_and_Stretch.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002300" File="Child_Link_Stretch_Refreshingly.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002320" File="Navi_Watch_Out!.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002340" File="Navi_Look!.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002360" File="Navi_Hey!.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002380" File="Navi_Listen!.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000023a0" File="Navi_Hello!.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000023c0" File="Talon_Snoring.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000023e0" File="Talon_Startled.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002400" File="Talon_Distressed.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002420" File="Talon_Fearful.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002440" File="Great_Fairy_Laughter.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000024b0" File="Great_Fairy_Titters.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000024d0" File="Ingo_Yowls.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000024f0" File="Ingo_Exclaims.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002510" File="Ingo_Hyeaaaaugh.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002530" File="Ingo_Hyah!.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002550" File="Girl_Gasps.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002570" File="Girl_Screams_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002590" File="Girl_Inquiring_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000025b0" File="Girl_Hurt.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000025d0" File="Girl_Startled_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000025f0" File="Girl_Screams_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002610" File="Girl_Delighted.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002630" File="Girl_Surprised_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002650" File="Girl_Surprised_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002670" File="Girl_Discombobulated_Unused.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002690" File="Woman_Yells.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000026b0" File="Woman_Yells_Startled.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000026d0" File="Woman_Grunts.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000026f0" File="Woman_Hup.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002710" File="Girl_Sighs.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002730" File="Girl_Startled_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002750" File="Girl_Inquiring_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002770" File="Girl_Disappointed.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002790" File="Girl_Laughing.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000027b0" File="Girl_Startled_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000027d0" File="Girl_Grunts_in_Effort.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000027f0" File="Girl_Screams_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002810" File="Girl_Screams_4.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002830" File="Girl_Sighs_Contentedly.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002850" File="Girl_Surprised_3.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002870" File="Girl_Scared.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002890" File="Skulltula_Screaming.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000028b0" File="Skulltula_Grunts_Angrily.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000028d0" File="King_Zora_Scoots.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000028f0" File="Flamethrower.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002930" File="Dodongo_Roar.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002950" File="Heavy_Rumbling.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002990" File="Clattering_Spear.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000029b0" File="Ganons_Electrical_Charge.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000029d0" File="Dramatic_Swoosh.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader000029f0" File="Broken_Pottery.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader00002a10" File="Shattered_Glass.aifc" Bank="0_Sound_Effects"/>
+	</Samples>
+</Soundfont>

@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<Soundfont Medium="Cartridge" CachePolicy="Temporary">
+	<SampleBanks>
+		<Bank Name="0_Sound_Effects"/>
+	</SampleBanks>
+	<Instruments>
+		<Instrument Name="Majora Synth 1" Index="0" Enum="MAJORASYNTH_0" Decay="117" Envelope="Env_Inst0">
+			<LowKey/>
+			<MediumKey Sample="Majora_Synth.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Majora Synth 2" Index="1" Enum="MAJORASYNTH_1" Decay="117" Envelope="Env_Inst1_Inst5">
+			<LowKey/>
+			<MediumKey Sample="Majora_Synth.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Iceland" Index="2" Enum="ICELAND" Decay="117" Envelope="Env_Inst2">
+			<LowKey/>
+			<MediumKey Sample="Iceland.aifc" Pitch="0.3337100148200989"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Harpsichord" Index="3" Enum="HARPSICHORD" Decay="-29" Envelope="Env_Inst3">
+			<LowKey/>
+			<MediumKey Sample="Harpsichord_High.aifc" Pitch="1.3348400592803955"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Hi Hat Noise" Index="4" Enum="HIHATNOISE" Decay="-29" Envelope="Env_Inst4">
+			<LowKey/>
+			<MediumKey Sample="Hi_Hat_Noise.aifc" Pitch="0.6890624761581421"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Strings" Index="5" Enum="STRINGS" Decay="-21" Envelope="Env_Inst1_Inst5">
+			<LowKey Sample="Strings_Low.aifc" MaxNote="D♯4" Pitch="4.0"/>
+			<MediumKey Sample="Strings_1.aifc" Pitch="1.2599209547042847"/>
+			<HighKey Sample="Strings_2.aifc" MinNote="C♯5" Pitch="0.6299610137939453"/>
+		</Instrument>
+		<Instrument Name="Crystal Synth" Index="6" Enum="CRYSTAL_SYNTH" Decay="117" Envelope="Env_Inst6">
+			<LowKey/>
+			<MediumKey Sample="Crystal_Synth.aifc" Pitch="0.8418465256690979"/>
+			<HighKey/>
+		</Instrument>
+		<Instrument Name="Vocals" Index="7" Enum="VOCALS" Decay="-45" Envelope="Env_Inst7">
+			<LowKey/>
+			<MediumKey Sample="Vocal_Aahs.aifc" Pitch="0.5162138938903809"/>
+			<HighKey Sample="Resonant_Vocal_Aahs.aifc" MinNote="F♯5" Pitch="0.36501842737197876"/>
+		</Instrument>
+        <Instrument/>
+        <Instrument/>
+        <Instrument/>
+        <Instrument/>
+        <Instrument/>
+		<Instrument Name="Piano 1" Index="12" Enum="PIANO_0" Decay="-70" Envelope="Env_Inst12">
+			<LowKey Sample="Harpsichord.aifc" MaxNote="A3" Pitch="2.317720890045166"/>
+			<MediumKey Sample="Piano.aifc" Pitch="1.0"/>
+			<HighKey Sample="Piano_Soft.aifc" MinNote="F5" Pitch="0.5"/>
+		</Instrument>
+		<Instrument Name="Piano 2" Index="13" Enum="PIANO_1" Decay="-70" Envelope="Env_Inst13">
+			<LowKey Sample="Harpsichord.aifc" MaxNote="A3" Pitch="2.317720890045166"/>
+			<MediumKey Sample="Piano.aifc" Pitch="1.0"/>
+			<HighKey Sample="Piano_Soft.aifc" MinNote="F5" Pitch="0.5"/>
+		</Instrument>
+	</Instruments>
+	<Drums/>
+	<SoundEffects/>
+	<Envelopes>
+		<Envelope Name="Env_Inst0">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_Inst1_Inst5">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_Inst2">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_Inst3">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_Inst4">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_Inst6">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="433" Value="0"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_Inst7">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="1" Value="32700"/>
+				<Point Delay="32700" Value="29430"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_Inst12">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="298" Value="0"/>
+				<Point Delay="1" Value="0"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+		<Envelope Name="Env_Inst13">
+			<Script>
+				<Point Delay="2" Value="32700"/>
+				<Point Delay="229" Value="0"/>
+				<Point Delay="1" Value="0"/>
+				<Point Delay="ADSR_HANG" Value="0"/>
+			</Script>
+		</Envelope>
+	</Envelopes>
+	<Samples>
+		<Sample Name="SampleHeader0" File="Majora_Synth.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader1" File="Iceland.aifc" Bank="0_Sound_Effects"/>
+        <Sample Name="SampleHeader2" File="Harpsichord_High.aifc" Bank="0_Sound_Effects"/>
+        <Sample Name="SampleHeader3" File="Hi_Hat_Noise.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader4" File="Strings_Low.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader5" File="Strings_1.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader6" File="Strings_2.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader7" File="Crystal_Synth.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader8" File="Vocal_Aahs.aifc" Bank="0_Sound_Effects"/>
+		<Sample Name="SampleHeader9" File="Resonant_Vocal_Aahs.aifc" Bank="0_Sound_Effects"/>
+        <Sample Name="SampleHeader10" File="Harpsichord.aifc" Bank="0_Sound_Effects"/>
+        <Sample Name="SampleHeader11" File="Piano.aifc" Bank="0_Sound_Effects"/>
+        <Sample Name="SampleHeader12" File="Piano_Soft.aifc" Bank="0_Sound_Effects"/>
+	</Samples>
+</Soundfont>
